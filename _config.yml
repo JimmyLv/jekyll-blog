@@ -20,8 +20,8 @@ repo: https://github.com/JimmyLv/jimmylv.github.io
 rss: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/img/gavatar.jpg
-favicon: /public/img/favicon.ico
+gavatar: https://o7mw3gkkh.qnssl.com/blog/public/img/gavatar.jpg
+favicon: https://o7mw3gkkh.qnssl.com/blog/public/img/favicon.ico
 
 # google analytics 设置
 ga:
