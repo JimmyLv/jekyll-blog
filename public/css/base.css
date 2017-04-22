@@ -117,9 +117,7 @@ h4.panel-title {
 }
 
 .photo img {
-  max-width: 49.5%;
-  height: auto;
-  margin: 0.2em 0;
+  max-width: 49.5% !important;
 }
 
 /* 文章目录 */
