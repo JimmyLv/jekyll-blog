@@ -1,4 +1,5 @@
 permalink: /:year-:month-:day-:title/
+paginate: 10
 markdown: kramdown
 encoding: utf-8
 
@@ -48,6 +49,7 @@ locals:
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
   - jekyll/tagging
   - jekyll-tagging-related_posts
   - jekyll-seo-tag
