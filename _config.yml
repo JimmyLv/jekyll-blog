@@ -60,3 +60,4 @@ exclude:
   - .travis/
   - node_modules/
   - themes/
+  - _posts/演讲/assets
