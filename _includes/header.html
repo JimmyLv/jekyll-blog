@@ -17,3 +17,6 @@
 <link rel="stylesheet" href="//o7mw3gkkh.qnssl.com/blog/public/css/base.css">
 <link rel="stylesheet" href="//o7mw3gkkh.qnssl.com/blog/public/css/yue.css">
 <link href="/pages/atom.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+{% if page.path contains '_posts' %}
+  <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
+{% endif %}
