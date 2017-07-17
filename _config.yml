@@ -47,7 +47,7 @@ locals:
   newest: 最新文章
   archive: 归档
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll/tagging
