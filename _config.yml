@@ -47,8 +47,6 @@ locals:
   newest: 最新文章
   archive: 归档
 
-ampdir: amp
-
 gems:
   - jekyll-sitemap
   - jekyll-paginate
