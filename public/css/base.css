@@ -40,10 +40,20 @@ body, html {
 .aside1> .nav > li > a:hover {
   /*color:#fff;*/
   /*background-color: #14AA57;*/
-  text-decoration: underline;
+  // text-decoration: underline;
 
   /*background-color: #57CB80;*/
 
+}
+
+img.nav-icon {
+  margin-top: -5px;
+}
+
+span.nav-category {
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 12px;
 }
 
 .aside1 > .nav-pills>li.active>a ,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus {

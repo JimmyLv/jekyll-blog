@@ -72,7 +72,7 @@ $(document).ready(function() {
     window.disqus_shortname = $('.show-commend').attr('name');
     $.ajax({
       type: "GET",
-      url: "http://" + disqus_shortname + ".disqus.com/embed.js",
+      url: "//" + disqus_shortname + ".disqus.com/embed.js",
       dataType: "script",
       cache: true
     });
