@@ -26,6 +26,7 @@ install:
   - gem install bundler
   - bundle install
 script:
+  - jekyll -v
   - jekyll clean
   - jekyll build
   - cat ./public/css/base.css # just for verify changes
