@@ -11,10 +11,12 @@ author:
   weibo: https://weibo.com/liqing215
   github: https://github.com/JimmyLv
   zhihu: https://www.zhihu.com/people/JimmyLv
+  juejin: https://juejin.im/user/5628752900b07a1836200154
+  stackoverflow: https://stackoverflow.com/users/5871340/jimmylv
 
 # 站点信息
 title: 吕立青的博客
-description: My personal note-blog.
+description: 想做产品，却误入程序世界爱上设计的摄影师。
 url: https://blog.jimmylv.info
 repo: https://github.com/JimmyLv/jimmylv.github.io
 rss: /pages/atom.xml
@@ -47,7 +49,7 @@ locals:
   newest: 最新文章
   archive: 归档
 
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll/tagging
