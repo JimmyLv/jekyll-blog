@@ -48,6 +48,7 @@ locals:
   about: 关于
   newest: 最新文章
   archive: 归档
+  search: 搜索
 
 gems:
   - jekyll-sitemap
