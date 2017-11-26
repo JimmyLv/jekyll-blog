@@ -44,6 +44,7 @@ cates:
 
 # 中文本地化
 locals:
+  ideas: 想法
   tags: 标签
   about: 关于
   newest: 最新文章
