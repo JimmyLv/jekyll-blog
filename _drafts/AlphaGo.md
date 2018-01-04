@@ -1,3 +1,8 @@
+---
+title: Alphago
+date: 2018-01-04 07:46:43.887000000 Z
+---
+
 ## AlphaGo means the future is coming faster than anyone predicted.
 
 What’s newsworthy isn’t just that AlphaGo has won Lee Sedol, who is probably the most well known active player today, but what this means for the acceleration of the pace at which computers are getting smarter.

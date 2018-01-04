@@ -1,5 +1,6 @@
 ---
 ---
+
 {% assign skip_keys = "posts,pages,maruku,redcarpet,include,keep_files,redcloth,rdiscount,extensions,links,owner,prose,static_files,kramdown,html_pages,exclude" | split: "," %}
 {% assign array_keys = "tags,categories,exclude" | split: "," %}
 {

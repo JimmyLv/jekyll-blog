@@ -1,10 +1,7 @@
 ---
-layout: post
 title: quick note
-categories: []
-tags: []
-published: True
-
+date: 2018-01-04 07:46:44.077000000 Z
+layout: post
 ---
 
 1. create a note directory

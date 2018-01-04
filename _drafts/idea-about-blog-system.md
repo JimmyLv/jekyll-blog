@@ -1,10 +1,7 @@
 ---
-layout: post
 title: idea about blog system
-categories: []
-tags: []
-published: True
-
+date: 2018-01-04 07:46:44.012000000 Z
+layout: post
 ---
 
 - 加入产品讨论的gitter

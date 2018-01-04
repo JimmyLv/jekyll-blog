@@ -1,3 +1,8 @@
+---
+title: Showcase of pwa
+date: 2018-01-04 07:46:44.168000000 Z
+---
+
 Hi everybody, My name is Jimmy come from Nimble team, as you can see, the guy who is very nervous right now.
 
 I am super existing to talk about progressive web app today, to build Native-like Mobile Web App, yep, this is my topic.

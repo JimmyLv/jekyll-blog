@@ -1,9 +1,13 @@
 ---
+title: How to use DNS
+date: 2015-04-30 00:00:00 Z
+categories:
+- 技术
+tags:
+- GFW
+- 域名
 layout: post
-title: "How to use DNS"
-description: ""
-category: "技术"
-tags: "GFW 域名"
+description: ''
 ---
 
 内容：

@@ -1,5 +1,6 @@
 ---
 ---
+
 {
   "categories":[{% for category in site.categories %}
     {

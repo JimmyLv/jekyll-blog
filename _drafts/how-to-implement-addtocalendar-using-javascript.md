@@ -1,10 +1,9 @@
 ---
-layout: post
 title: how to implement addToCalendar using JavaScript
-categories: [编程]
-tags: []
-published: True
-
+date: 2015-11-12 00:00:00 Z
+categories:
+- 编程
+layout: post
 ---
 
 ## Desktop

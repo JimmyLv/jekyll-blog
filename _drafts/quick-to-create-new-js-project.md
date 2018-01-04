@@ -1,10 +1,7 @@
 ---
-layout: 
 title: quick to create new JS project
-categories: []
-tags: []
-published: True
-
+date: 2018-01-04 07:46:44.109000000 Z
+layout: 
 ---
 
 ## 程序员需求分析

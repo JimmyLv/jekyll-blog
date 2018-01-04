@@ -1,12 +1,12 @@
 ---
-layout: post
 title: 到底该用什么样的方式统一管理所有知识？
-categories: [思考]
-tags: [知识管理 工具]
-published: True
-
+date: 2015-08-16 00:00:00 Z
+categories:
+- 思考
+tags:
+- 知识管理 工具
+layout: post
 ---
-
 
 将从以下几个方面来讨论：
 - 不同点

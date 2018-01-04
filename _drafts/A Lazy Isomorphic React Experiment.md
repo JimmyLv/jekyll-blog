@@ -1,6 +1,6 @@
 ---
 title: A Lazy Isomorphic React Experiment
-tags: []
+date: 2018-01-04 07:46:43.842000000 Z
 notebook: 0.0 Inbox
 ---
 

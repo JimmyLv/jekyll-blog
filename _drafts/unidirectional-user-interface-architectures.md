@@ -1,10 +1,11 @@
 ---
+title: "【译】Unidirectional User Interface Architectures"
+date: 2018-01-04 07:46:44.226000000 Z
+categories:
+- 编程
+tags:
+- React
 layout: post
-title: 【译】Unidirectional User Interface Architectures
-categories: [编程]
-tags: [React]
-published: True
-
 ---
 
 # Unidirectional User Interface Architectures | 单向用户界面架构

@@ -1,10 +1,7 @@
 ---
-layout: post
 title: A Step-by-Step Tutorial for Your First AngularJS App
-categories: []
-tags: []
-published: True
-
+date: 2018-01-04 07:46:43.918000000 Z
+layout: post
 ---
 
 # A Step-by-Step Tutorial for Your First AngularJS App
