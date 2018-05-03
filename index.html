@@ -37,7 +37,7 @@ titlename: 首页
         <div class="panel-heading">{{ cate }}</div>
         {% for tag in site.tags %} 
           {% if tag[0] == cate %}
-            {% for post in tag[1] %}
+            {% for post in tag[1] limit:10 %}
               <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
                 {{post.title}}
                 <span class="badge">{{ post.date | date:"%Y 年 %m 月 %d 日" }}</span>
