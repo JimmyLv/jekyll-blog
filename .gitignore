@@ -9,6 +9,8 @@ _site/
 _theme/
 _book/
 node_modules/
+yarn-error.log
+npm-error.log
 
 # hexo
 themes/
