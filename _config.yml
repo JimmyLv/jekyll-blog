@@ -25,8 +25,8 @@ description: 想做产品，却误入程序世界爱上设计的摄影师。
 url: https://blog.jimmylv.info
 repo: https://github.com/JimmyLv/jimmylv.github.io
 rss: "/pages/atom.xml"
-gavatar: ./public/img/gavatar.jpg
-favicon: ./public/img/favicon.ico
+gavatar: "./public/img/gavatar.jpg"
+favicon: "./public/img/favicon.ico"
 ga:
   id: UA-74789926-1
   url: https://blog.jimmylv.info
