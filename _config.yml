@@ -51,6 +51,7 @@ gems:
 - jekyll-tagging-related_posts
 - jekyll-seo-tag
 - jekyll-mermaid
+- jekyll-loading-lazy
 exclude:
 - ".idea/"
 - ".github/"
