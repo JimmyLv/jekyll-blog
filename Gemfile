@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # https://pages.github.com/versions/
-gem "jekyll", '3.9'
+gem "jekyll", '1.5'
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-tagging-related_posts"
