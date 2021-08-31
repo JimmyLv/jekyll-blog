@@ -38,6 +38,12 @@
 
 As you can see in [api](https://github.com/JimmyLv/jimmy.lv/tree/gh-pages/api) folder and generated result in <http://blog.jimmylv.info/api/index.json>.
 
+## Command
+
+```shell
+bundle exec jekyll build
+```
+
 ## Publish Slides
 
 ```
