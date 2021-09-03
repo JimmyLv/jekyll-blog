@@ -57,7 +57,6 @@ exclude:
 - ".github/"
 - ".travis/"
 - node_modules/
-# https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
 - vendor
 - themes/
 - _posts/演讲/assets
