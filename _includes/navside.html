@@ -5,28 +5,31 @@
       <ul class="nav nav-pills nav-stacked">
         {% for category in site.categories %}
           <li><a href="#{{ category | first }}" data-toggle="tab">
-            <img class="nav-icon" src="/public/img/{{ category[0] }}.svg">
+            <img class="nav-icon" style="mask: url(/public/img/{{ category[0] }}.svg) no-repeat center;">
             <span class="nav-category">{{ category[0] }}</span>
           </a></li>
         {% endfor %}
         <hr style="margin: 0;"/>
         <li><a class="pjaxlink" href="https://wiki.jimmylv.info/" target="_blank">
-          <img class="nav-icon" src="/public/img/资源.svg"><span class="nav-category"> {{ site.locals.wiki }}</span>
+          <img class="nav-icon" style="background-color: #00a1d6; mask: url(/public/img/视频.svg)"><span class="nav-category"> {{ site.locals.video }}</span>
+        </a></li>
+        <li><a class="pjaxlink" href="https://wiki.jimmylv.info/" target="_blank">
+          <img class="nav-icon" style="mask: url(/public/img/资源.svg) no-repeat center;"><span class="nav-category"> {{ site.locals.wiki }}</span>
         </a></li>
         <li><a class="pjaxlink" href="/pages/ideas/">
-          <img class="nav-icon" src="/public/img/想法.svg"><span class="nav-category"> {{ site.locals.ideas }}</span>
+          <img class="nav-icon" style="mask: url(/public/img/想法.svg) no-repeat center;"><span class="nav-category"> {{ site.locals.ideas }}</span>
         </a></li>
         <li><a href="#tags" data-toggle="tab">
-          <img class="nav-icon" src="/public/img/标签.svg"><span class="nav-category"> {{ site.locals.tags }}</span>
-        </a></li>  
+          <img class="nav-icon" style="mask: url(/public/img/标签.svg) no-repeat center;"><span class="nav-category"> {{ site.locals.tags }}</span>
+        </a></li>
         <li><a class="pjaxlink" href="/pages/archive/">
-          <img class="nav-icon" src="/public/img/归档.svg"><span class="nav-category"> {{ site.locals.archive }}</span>
+          <img class="nav-icon" style="mask: url(/public/img/归档.svg) no-repeat center;"><span class="nav-category"> {{ site.locals.archive }}</span>
         </a></li>
         <li><a class="pjaxlink" href="https://www.bing.com/search?q=site%3Ablog.jimmylv.info" target="_blank">
-          <img class="nav-icon" src="/public/img/搜索.svg"><span class="nav-category"> {{ site.locals.search }}</span>
+          <img class="nav-icon" style="mask: url(/public/img/搜索.svg) no-repeat center;"><span class="nav-category"> {{ site.locals.search }}</span>
         </a></li>
         <li><a class="pjaxlink" href="/pages/about/">
-          <img class="nav-icon" src="/public/img/关于.svg"><span class="nav-category"> {{ site.locals.about }}</span>
+          <img class="nav-icon" style="mask: url(/public/img/关于.svg) no-repeat center;"><span class="nav-category"> {{ site.locals.about }}</span>
         </a></li>
       </ul>
       <div class="aside1_bottom">
@@ -40,8 +43,8 @@
     </div>
     <div class="col-md-9 col-xs-9 aside2">
       <div class="row navside2">
-        <div class="tab-content"> 
-          {% for category in site.categories %} 
+        <div class="tab-content">
+          {% for category in site.categories %}
             <div class="tab-pane" id="{{ category[0] }}">
               <div class="list-group">
                 {% for post in category[1] %}
@@ -49,7 +52,7 @@
                 {% endfor %}
               </div>
             </div>
-          {% endfor %}      
+          {% endfor %}
           <div class="tab-pane" id="tags">
             <div class="panel-group" id="accordion">
               {% for tag in site.tags %}
