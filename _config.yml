@@ -37,6 +37,7 @@ cates:
 - React
 - PKM
 locals:
+  english: English
   video: 视频
   wiki: Wiki
   ideas: 想法
