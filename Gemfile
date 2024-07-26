@@ -10,6 +10,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-mermaid'
 gem 'jekyll-twitter-plugin'
 gem 'kramdown-parser-gfm'
+gem 'i18n', '~> 1.14'
 
 # https://developers.cloudflare.com/pages/migrations/migrating-jekyll-from-github-pages/
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
