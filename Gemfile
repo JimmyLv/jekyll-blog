@@ -12,5 +12,5 @@ gem 'jekyll-twitter-plugin'
 gem 'kramdown-parser-gfm'
 
 # https://developers.cloudflare.com/pages/migrations/migrating-jekyll-from-github-pages/
-git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
-gem "github-pages", "~> 215", group: :jekyll_plugins
+# git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+# gem "github-pages", "~> 215", group: :jekyll_plugins
