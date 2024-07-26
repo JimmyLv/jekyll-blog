@@ -265,6 +265,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 215)
+  jekyll (= 3.9)
   jekyll-mermaid
   jekyll-paginate
   jekyll-seo-tag
