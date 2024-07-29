@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 # https://pages.github.com/versions/
 gem "jekyll"
-gem 'webrick'
 gem 'i18n', '~> 1.14.5'
 gem "jekyll-paginate"
 gem "jekyll-sitemap"

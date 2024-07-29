@@ -87,7 +87,6 @@ DEPENDENCIES
   jekyll-tagging-related_posts
   jekyll-twitter-plugin
   kramdown-parser-gfm
-  webrick
 
 BUNDLED WITH
    2.5.14
