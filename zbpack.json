@@ -1,0 +1,7 @@
+{
+  "build_command": "bundle exec jekyll build",
+  "start_command": "bundle exec jekyll serve",
+  "ruby": {
+    "version": "2.7.8"
+  }
+}
