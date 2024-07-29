@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # https://pages.github.com/versions/
-gem "jekyll"
+gem 'jekyll', '~> 4.2'
 gem 'webrick'
 gem 'i18n', '~> 1.14.5'
 gem "jekyll-paginate"
@@ -12,3 +12,5 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-mermaid'
 gem 'jekyll-twitter-plugin'
 gem 'kramdown-parser-gfm'
+gem 'base64'
+gem 'bigdecimal'

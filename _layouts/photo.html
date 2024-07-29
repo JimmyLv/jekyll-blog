@@ -4,11 +4,11 @@ layout: base
 
 <div class="row yue">
   <div class="col-md-12 aside3-title">
-    <h1 id="#identifier">{{ page.title }}</h1>
+    <h1 id="#identifier">{{ page.title | default: "默认标题" }}</h1>
     <div class="aside3-date">{{ page.date | date:"%Y年%m月%d日" }}</div>
   </div>
   <div class="col-md-12 aside3-content">
-    <div class="photo" id="content">{{ content }}</div>
+    <div class="photo" id="content">{{ content | default: "内容未定义" | escape }}</div>
     {% include disqus.html %}
   </div>
   <!-- 目录 -->
