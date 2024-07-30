@@ -10,7 +10,7 @@ gem 'jekyll-tagging'
 gem "jekyll-tagging-related_posts"
 gem 'jekyll-seo-tag'
 gem 'jekyll-mermaid'
-gem 'jekyll-twitter-plugin'
+# gem 'jekyll-twitter-plugin'
 gem 'kramdown-parser-gfm'
 gem 'base64'
 gem 'bigdecimal'

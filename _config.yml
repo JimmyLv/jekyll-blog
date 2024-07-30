@@ -53,7 +53,7 @@ plugins:
 - jekyll-tagging-related_posts
 - jekyll-seo-tag
 - jekyll-mermaid
-- jekyll-twitter-plugin
+#- jekyll-twitter-plugin
 exclude:
 - ".idea/"
 - ".github/"
