@@ -19,6 +19,14 @@ jobs:
       - name: Update submodules to latest
         run: git submodule update --remote
 
+      - name: Commit submodule update
+        if: github.event_name == 'repository_dispatch' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || git commit -am "chore: update submodules to latest"
+          git push || true
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
