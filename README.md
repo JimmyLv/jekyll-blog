@@ -52,6 +52,12 @@ nodeppt generate ./_posts/演讲 ./slides -a
 
 ## Deploy
 
-1. Hosted on [Coding Pages](http://blog.jimmylv.info/).
-2. Hosted on [GitHub Pages](http://jimmylv.github.io/).
-3. Hosted on [AWS S3](http://blog.jimmylv.info.s3-website-ap-southeast-1.amazonaws.com/).
+Hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
+
+```shell
+# 构建站点
+bundle exec jekyll build
+
+# 部署到 Cloudflare Pages
+wrangler pages deploy _site --project-name=jekyll-blog
+```
